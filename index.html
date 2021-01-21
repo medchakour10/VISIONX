@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- services27:08-->
+<head>
+    <meta charset="utf-8">
+    <title>CLOUDVISION</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">  
+    <link href="css/style1.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+
+
+    <link href="css/responsive1.css" rel="stylesheet"> 
+    <!--Color Switcher Mockup-->
+    <link href="css/color-switcher-design.css" rel="stylesheet">
+    <!--Color Themes-->
+    <link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/loog1.png" type="image/x-icon">
+    <link rel="icon" href="images/loog1.png" type="image/x-icon">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <style>
+        div.waves{
+      width: 100%;
+      bottom: 0;
+      /*height: 100%;*/
+      position: absolute;
+      z-index: 99;
+    }
+    .tutorial-link{
+      font-family: sans-serif;
+      text-align: center;
+      color: #f3f3f3;
+    }
+    .tutorial-link h2{
+      background: linear-gradient(90deg, #00b4db 0%, #224488 50%, #0083b0 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      
+    }
+    .tutorial-link a{
+      text-decoration: none;
+      background: linear-gradient(90deg, #00b4db 0%, #224488 50%, #0083b0 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      
+    }
+    
+    svg{
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      animation-name: move-left;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    .spacer{
+      height: 100px;
+      width: 100%;
+    }
+    
+    @keyframes example {
+      0%   {
+        left:0px;
+        top:0px;}
+      
+      50%  {
+        left:-2000px;
+        top:200px;}
+      
+      100% {
+        left:0px; 
+        top:0px;}
+    }
+    
+    .responsive-map-container {
+    position: relative;
+    padding-bottom: 25.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-map-container iframe,   
+.responsive-map-container object,  
+.responsive-map-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+    </style>
+    </head>
+
+<body>
+
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="preloader"></div>
+    
+        <!-- Main Header-->
+    <header class="main-header header-style-three">
+        <!--Header Top-->
+        <div class="header-top" style="background-color: #2988DC">
+            <div class="auto-container">
+                <div class="inner-container clearfix">
+                    <div class="top-left">
+                        <ul class="contact-list clearfix">
+                            <li><i class="fa fa-volume-control-phone"></i> 9000 Tanger , Maroc</li>
+                            <li><i class="fa fa-envelope"></i><a href="#">contact@cloudvision.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-right">
+                        <ul class="social-icon-four clearfix">
+                            <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Top -->
+
+        <div class="header-lower">
+            <div class="auto-container">
+                <div class="main-box clearfix">
+                    <div class="logo-box">
+                        <div class="logo"><a href="index.html"><img src="images/loog1.png" alt="" title=""></a></div>
+                    </div>
+
+                    <div class="nav-outer clearfix">
+                        <!-- Main Menu -->
+                        <nav class="main-menu navbar-expand-md ">
+                            <div class="navbar-header">
+                                <!-- Toggle Button -->      
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="icon flaticon-menu-button"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li ><a href="#index" style="color: #343a40">Home</a></li>
+                                       
+                                    </li>
+                                    
+                                    <li  ><a href="#about-us" style="color: #343a40">About</a>
+                                       
+                                    </li>
+                                    <li  ><a href="#services-section" style="color: #343a40">EXPERTISE</a>
+                                       
+                                    </li>
+                                    <li  ><a href="#portfolio" style="color: #343a40">INDUSTRIES</a>
+                                       
+                                    </li>
+                                   
+                                    <li><a href="#informatique" style="color: #343a40">INFORMATIQUE OFFSHORE</a>
+                                        <ul>
+                                            <li><a href="services/sous-traitance-informatique.html" style="font-size: 11px">sous traitance informatique</a></li>
+                                            <li><a href="services/delegation-personnel.html" style="font-size: 11px">Délégation de personnel</a></li>
+                                            <li><a href="services/developpement-informatique.html" style="font-size: 11px">Développement informatique </a></li>
+                                            <li><a href="services/gestion-projet-externe.html" style="font-size: 11px">Gestion de projet externalisé</a></li>
+                                            <li><a href="services/integration-contenu-web.html" style="font-size: 11px">Intégration de contenus</a></li>
+                                            <li><a href="services/ssii.html" style="font-size: 11px">SSII</a></li>
+                                            <li><a href="services/application-mobile.html" style="font-size: 11px">Dévlopement d'application mobiles</a></li>
+
+                                        </ul>
+                                    </li>
+                                   
+                                    
+                                    <li><a href="#contact-us" style="color: #343a40">Contact</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </nav><!-- Main Menu End-->                        
+
+                        <!-- Outer Box-->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="auto-container clearfix">
+                <!--Logo-->
+                <div class="logo pull-left">
+                    <a href="index.html" title=""><img src="images/loog1.png" alt="" title=""></a>
+                </div>
+                <!--Right Col-->
+                <div class="pull-right">
+                    <!-- Main Menu -->
+                    <nav class="main-menu">
+                        <div class="navbar-collapse show collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <li ><a href="index.html" style="color: #343a40">HOME</a></li>
+                                       
+                            </li>
+                            
+                            <li  ><a href="#about-us" style="color: #343a40">ABOUT</a>
+                               
+                            </li>
+                            <li  ><a href="#services-section" style="color: #343a40">EXPERTISE</a>
+                               
+                            </li>
+                            <li  ><a href="#portfolio" style="color: #343a40">INDUSTRIES</a>
+                               
+                            </li>
+                           
+                            <li><a href="#informatique" style="color: #343a40">INFORMATIQUE OFFSHORE</a>
+                                    <ul>
+                                        <li><a href="services/sous-traitance-informatique.html" style="font-size: 11px">sous traitance informatique</a></li>
+                                        <li><a href="services/delegation-personnel.html" style="font-size: 11px">Délégation de personnel</a></li>
+                                        <li><a href="services/developpement-informatique.html" style="font-size: 11px">Développement informatique </a></li>
+                                        <li><a href="services/gestion-projet-externe.html" style="font-size: 11px">Gestion de projet externalisé</a></li>
+                                        <li><a href="services/integration-contenu-web.html" style="font-size: 11px">Intégration de contenus</a></li>
+                                        <li><a href="services/ssii.html" style="font-size: 11px">SSII</a></li>
+                                        <li><a href="services/application-mobile.html" style="font-size: 11px">Dévlopement d'application mobiles</a></li>
+
+                                    </ul>
+                                </li>
+                                
+                                <li><a href="#contact-us" style="color: #343a40">CONTACT</a></li>
+
+                                
+                            </ul> 
+                        </div>
+                    </nav><!-- Main Menu End-->
+                </div>
+            </div>
+        </div><!-- End Sticky Menu -->
+    </header>
+    <!--End Main Header -->
+    
+    <!--Page Title-->
+
+   
+
+   
+    <div class="tutorial-link">
+        <h1>Agence web au Maroc</h1>
+        <h2><a href="https://dev.to/theliquidcharcoal/pure-html-animation-animate-svg-with-animate-2a5m" target="_blank">Confiez-nous votre sous traitance informatique
+        </a></h2>
+      </div>
+
+   <section class="page-title" style="padding: 100px 0 180px;;">
+       
+    <div class="waves">
+        <svg width="100%" height="200px" fill="none" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#00B4DB" />
+            <stop offset="50%" stop-color="#224488" />
+            <stop offset="100%" stop-color="#0083B0" />
+          </linearGradient>
+          <path 
+            fill="url(#grad1)" 
+            d="
+              M0 67
+              C 273,183
+                822,-40
+                1920.00,106 
+              
+              V 359 
+              H 0 
+              V 67
+              Z">
+            <animate 
+              repeatCount="indefinite" 
+              fill="url(#grad1)" 
+              attributeName="d" 
+              dur="15s"
+              attributeType="XML"
+              values="
+                M0 77 
+                C 473,283
+                  822,-40
+                  1920,116 
+                
+                V 359 
+                H 0 
+                V 67 
+                Z; 
+    
+                M0 77 
+                C 473,-40
+                  1222,283
+                  1920,136 
+                
+                V 359 
+                H 0 
+                V 67 
+                Z; 
+    
+                M0 77 
+                C 973,260
+                  1722,-53
+                  1920,120 
+                
+                V 359 
+                H 0 
+                V 67 
+                Z; 
+    
+                M0 77 
+                C 473,283
+                  822,-40
+                  1920,116 
+                
+                V 359 
+                H 0 
+                V 67 
+                Z
+                ">
+            </animate>
+          </path>
+        </svg>
+      </div>
+   
+      <div class="_box" style=" margin: auto;
+      max-width: 650px;   
+       padding: 50px;
+          background: white;
+          border-radius: 3px;
+          box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+          -moz-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+          -webkit-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);">
+                  <h2 style="text-align: center">
+                      <strong ></strong> 
+                  </h2>
+                  <p style="text-align: center" >
+                      Moroccan Web agency established in Tangier with its sole purpose to meticulously look after your digital projects. Conception , creation, development and maintenance. Suited to your needs, we will follow through and heed to create a project that is your own.
+                  </br>
+                      Do not hesitate to contact us to discuss your projects   
+      
+      
+                  </p>
+              </div>
+      <!--End Page Title-->
+  
+      <!-- Specialize Section -->
+    
+       
+                     
+                      
+   </div>
+        
+    </section>
+</br>
+</br>
+<section class="blasa-section makebusiness-section" style="padding: 30px 0px;" id="index">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 tp_animate_when_visible fade-bottom" data-offest="80%" data-speed="600">
+                <div class="wrap_business_head ">
+                    <span class="small-title" style="font-size: 14px;">Who we are ?</span>
+                    <h2 class="head-title"> We Help & Guide you to Achieve Success
+                    
+                   </h2>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12 col-12 tp_animate_when_visible fade-bottom" data-offest="80%" data-speed="700" data-delay="300">
+                <div class="wrap_business_text "  >
+                    <p style="font-size: 22px;text-align:justify">Cloudvision, an agency concentrated on Web Development. Our main purpose to help you achieve outstanding business results to help you gain strategic advantage.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-12 tp_animate_when_visible fade-left" data-offest="80%" data-speed="600" data-delay="400">
+                <ul class="business-list " >
+                    <li><span style="font-weight: bold;">Maximising benefits.</span></li>
+                    <li><span style="font-weight: bold;" >Reduce charges.  </span></li>
+                    <li><span  style="font-weight: bold;">Exponential growth
+                    </span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+  
+    <div class="box">
+      <div class="content">
+      <h2>Software Devlopment</h2>
+      <p>Leverage our expertise in custom software engineering to achieve your busnisess goals, disprut your
+        industry, and delight your customers.</p>
+        </div>
+    </div>
+    
+    
+      <div class="box">
+        <div class="content">
+      <h2>Integration Services</h2>
+      <p>Connect multiple systems, data sources, and applications under one digital roof to meet
+        growing busniness demands and manage your operations smoothly.</p>
+          </div>
+    </div>
+    
+      <div class="box">
+        <div class="content">
+          <h2>Dedicated Teams</h2>
+          <p>Solve tech talent shortage challenges with our staff augmentation and dedicated team
+            placement solutions for entreprise companies and growing startups.</p>
+        </div>
+    </div>
+    
+  </div>
+<section id="about-us">
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <hr class="section-divider">
+
+            <div class="col-sm-12 col-lg-7">
+
+                <h1 class="section-heading">About <span class="bold">us</span></h1>
+                <p class="brief-content text-justify">
+                    Striving to connect customers with the brand? We are the one-stop-shop for all your design &amp;
+                    development needs,
+                    paving the way for potential customers. With creativity &amp; innovation, we develop robust
+                    software aligned to your business needs.
+                </p>
+                <div class="solid">
+                </div>
+
+                <img src="images/domaine/logistic.jpg"
+                    class="text-center d-block d-sm-none about-img-mobile img-responsive" type="image/svg+xml width="80%" alt="">
+
+                <p class="full-content">
+                    If you are planning to take your business online, a professionally designed customer-friendly
+                    software is what you will be looking for. In today's competitive world, software demands beyond
+                    integration & compatibility. The design & ease of usability of your software is what boosts your
+                    operational process and improves customer relations. The software offers numerous benefits to
+                    enterprises and humans as a whole. It is not cost effective but also provides you with mobility
+                    advantages and boosts your business performance. That's why here at DevelopersHive, we harness
+                    agile methodologies and latest development tools & technologies to implement a call-to-action
+                    strategy
+                    to narrate an engaging brand story.
+                    Keeping the nature of your business and requirements in the mind, we provide robust software
+                    development solutions that offers
+                    Easy Integration, Automation, Quick Data Analysis, Reporting, Customer Relationship Management,
+                    Accounting, Tracking & Visibility.
+                    With a professional team and innovative ideas, we are ready to assist you with customer
+                    software development services to help you improve your digital transformation.
+                </p>
+
+            </div>
+
+            <div class="col-sm-12 col-lg-5 text-center d-none d-sm-block d-md-block flex-sm-row-reverse">
+
+                <img src="images/domaine/logistic.jpg" alt="" type="image/svg+xml">
+
+            </div>
+            <hr class="section-divider">
+
+
+        </div>
+
+    </div>
+
+</section>
+</br>
+<section id="services-section">
+
+    <div class="container-fluid">
+
+        <div class="services-heading text-right">
+            <h1 class="section-heading"><span class="bold">Our Offerings</span> &amp; Expertise</h1>
+            <p class="brief-content br-right">
+                Counted as one of the best software development companies in India,
+                we provide Comprehensive Development Services to a global clientele. Our development solutions range
+                from mobile software
+                development to cloud-based custom software development. Gauge through our technical stack below.
+            </p>
+            <div class="solid ml-auto">
+            </div>
+        </div>
+
+        <div class="row providing-services mbr-justify-content-center">
+
+            <div class="col-lg-6">
+                <div class="row wrap">
+                    <div class="col-lg-3 ico-wrap text-center">
+                        <img src="Images/expertise/service1.svg" type="image/svg+xml width="70%" alt="">
+                    </div>
+                    <div class="col-lg-9 text-wrap vcenter">
+                        <p class="service-name">NodeJs &amp; Java Development</p>
+                        <p class="service-text">
+                            Our offshore developers render best-in-class Node.
+                            Js and Java development services ranging from plugins to API development.
+                            Get scalable, secured, and result-oriented solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="row wrap">
+                    <div class="col-lg-3 ico-wrap text-center">
+                        <img src="Images/expertise/service2.svg" type="image/svg+xml width="70%" alt="">
+                    </div>
+                    <div class="col-lg-9 text-wrap vcenter">
+                        <p class="service-name">Relational &amp; Non-Relational Database</p>
+                        <p class="service-text">Get enterprise-ready database development solutions. Our
+                            professional
+                            developers have expertise in MySQL, PostgreSQL, SQLite3, MongoDB, and other database
+                            development services.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="row wrap">
+                    <div class="col-lg-3 ico-wrap text-center">
+                        <img src="Images/expertise/service3.svg" type="image/svg+xml width="70%" alt="">
+                    </div>
+                    <div class="col-lg-9 text-wrap vcenter">
+                        <p class="service-name">Angular and ReactJs</p>
+                        <p class="service-text">We have years of experience in building secure and dynamic web
+                            applications using
+                            javascript libraries and frameworks such as AngularJS and ReactJS.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="row wrap">
+                    <div class="col-lg-3 ico-wrap text-center">
+                        <img src="Images/expertise/service4.svg" type="image/svg+xml width="70%" alt="">
+                    </div>
+                    <div class="col-lg-9 text-wrap vcenter">
+                        <p class="service-name">Website and Graphic Designing</p>
+                        <p class="service-text">We bring innovation & creativity together to design engaging
+                            websites &
+                            immersive graphics that help your brand to engage with potential users around the world.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="row wrap">
+                    <div class="col-lg-3 ico-wrap text-center">
+                        <img src="Images/expertise/service5.svg" type="image/svg+xml width="70%" alt="">
+                    </div>
+                    <div class="col-lg-9 text-wrap vcenter">
+                        <p class="service-name">React Native and Ionic Mobile Apps</p>
+                        <p class="service-text">Our team has great knowledge in Javascript, CSS, and HTML
+                            deliver world-class React Native and Ionic mobile app development solutions meeting all
+                            your needs. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="row wrap">
+                    <div class="col-lg-3 ico-wrap text-center">
+                        <img src="Images/expertise/service6.svg" type="image/svg+xml width="70%" alt="">
+                    </div>
+                    <div class="col-lg-9 text-wrap vcenter">
+                        <p class="service-name">AWS, Google, Azure, NgInx &amp; more</p>
+                        <p class="service-text">We offer a complete range of web cloud solutions ranging from AWS,
+                            GCP. Azure,
+                            SAP, and more. Get affordable web cloud services.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    </div>
+</section>
+</br>
+</br>
+<section id="informatique">
+
+    <div class="container-fluid">
+
+        <div class="services-heading text-left">
+            <h1 class="section-heading">INFORMATIQUE 
+                <span class="bold"> OFFSHORE</span></h1>
+            <p class="brief-content br-left">
+                We have made a global client base with our price-sensitive, best-in-industry software development
+                services.
+                Here are a few of our best works that can give you an idea of our design & development process.
+            </p>
+            <div class="solid mr-auto">
+            </div>
+        </div>
+
+       
+    </div>
+</br>
+</br>
+<div class="tabs" id="">
+    <div class="tab-button-outer">
+      <ul id="tab-button">
+        <li><a href="#tab01">IT services</a></li>
+        <li><a href="#tab02">Integration</a></li>
+        <li><a href="#tab03">Project managing</a></li>
+        <li><a href="#tab04">Subcontracting</a></li>
+        <li><a href="#tab05">Delegation</a></li>
+      </ul>
+    </div>
+    <div class="tab-select-outer">
+      <select id="tab-select">
+        <option value="#tab01">IT services</option>
+        <option value="#tab02">Integration</option>
+        <option value="#tab03">Project managing</option>
+        <option value="#tab04">Subcontracting</option>
+        <option value="#tab05">Delegation</option>
+      </select>
+    </div>
+  
+    <div id="tab01" class="tab-contents">
+      <h2>IT services</h2>
+      <p>If you do not dispose of an in house IT service to your business thus in need of a professional advice, tool design, maintenance or training, call on Cloudvision a company of expertise in new technologies and IT is a pledge of success for your business. Thanks to the many services with extra expertise offered at Cloudvision , you will see that we have one of the competent interlocutors capable of answering all your demands.
+    </p>
+    </div>
+    <div id="tab02" class="tab-contents">
+      <h2>Integration</h2>
+      <p>Integration of web contents in a CMS or any other support is an acute mission. It is very important to take this step scrupulously, because a not well integrated web page will result in negative consequences on the experience of the user generaly.
+        The outsourcing of this particular mission of a partner disposing of required competences will be permitting you to economise preciously your time in order to focus on your factual task: the development of your activity and your business. Calling on cloudvision, you are given the certainty of having your contents flawlessly integrated in your back office.</p>
+    </div>
+    <div id="tab03" class="tab-contents">
+      <h2>Project managing</h2>
+      <p>The team of our digital agency offshore is concocted of developers, web designers. Being aware of the constant evolution of technologies, we propose regular training to all developers of our team, administered by moroccan experts.
+        Each project entrusted to us is governed by a chief in command. Starting by orginising briefings, planning, not forgeting the recipe and last but not least assuring our clients thoroughly of thy mission.</p>
+    </div>
+    <div id="tab04" class="tab-contents">
+      <h2>Subcontracting</h2>
+      <p>Cloudvision develops numerous web solutions for companies proposing as well IT subcontracting services.
+        Wih a perception to offer to all of our clients personalised web solutions living up to their expectations, our agency adapts with efficiency according to their aim, to their work procedures, as their planifications.</p>
+    </div>
+    <div id="tab05" class="tab-contents">
+      <h2>Delegation</h2>
+      <p>Cloudvision proposes a diversity of IT services offshore dedicated to their clients. In order to have the ability to offer exquisite performance to entreprises benefitting from our services, our team agency is composed of competent and experienced backend-frontend developers.
+        For more information and instructions concerning our services quality, do not hesitate to contact us.</p>
+    </div>
+  </div>
+</section>
+</br>
+</br>
+
+<section id="portfolio">
+
+    <div class="container-fluid">
+
+        <div class="services-heading text-right">
+            <h1 class="section-heading">Industries 
+                <span class="bold"> We Serve</span></h1>
+            <p class="brief-content br-right">
+                We have made a global client base with our price-sensitive, best-in-industry software development
+                services.
+                Here are a few of our best works that can give you an idea of our design & development process.
+            </p>
+            <div class="solid ml-auto">
+            </div>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row portfolio-row">
+
+                        <div class="col-sm-12 col-lg-6">
+                            <img src="images/domaine/finance.jpg" class="img-fluid"
+                                alt="">
+                            <!-- <img src="Images/PortfolioSection/Porfolio-1-mobile.png" width="300px"
+                                class="d-block d-sm-none" alt=""> -->
+                        </div>
+
+                        <div class="col-sm-12 col-lg-6 portfolio-content">
+
+                           <h3 style="text-align: center;">Finance</h3>
+                            <p class="portfolio-project-description">
+                                Staying safe is increasingly difficult Changing health regulations lead to constant
+                                re-prints
+                                and menu cleanings. Printed menus aren't flexible Outdated and sold out items lead
+                                to disappointed
+                                guests and slower operations.
+
+                                To fix this Aboard has built a platform for restaurants and businesses to create a
+                                convenient
+                                menu for their restaurant with plenty of pre-provided themes which they can use and
+                                customize on
+                                the go. This platform is built using ReactJs for building apps with NodeJs and
+                                Firebase.
+
+                                Restaurants can add multiple menus with each menu being different styles, add or
+                                remove multiple
+                                sections and items any time and simply publish to make the menu live to its
+                                customers.
+                                Each restaurant has a unique url which it can share with its users or a QR code
+                                which they
+                                can scan.
+
+                            </p>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row portfolio-row">
+
+                        <div class="col-sm-12 col-lg-6">
+                            <img src="images/domaine/ecom.png" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="col-sm-12 col-lg-6 portfolio-content">
+                            <h3 style="text-align: center;">Ecommerce</h3>
+
+                           
+                            <p class="portfolio-project-description">
+
+                                Relay Trade Limited, the company behind the RelayX Super Wallet. Founded in April
+                                2019,
+                                it is a Bitcoin SV powered super wallet that enables users to use the BSV blockchain
+                                with a
+                                non custodial wallet that is connected to leading apps in the BSV ecosystem.
+
+                                RelayX turns your local currency into a global one & delivers a seamless payment
+                                experience
+                                no matter where on Earth you are trying to send or receive money. Stop maintaining
+                                balances
+                                in multiple apps or dealing with foreign exchange rates.
+
+                                With a revolutionary user experience and made it compatible with all the closed
+                                payment
+                                apps used by billions of people (WeChat, Alipay, Line Pay, and more).
+                                Just enter how much you want to send or receive in your local currency,
+                                and let our reliable processors take care of the rest.
+
+                            </p>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row portfolio-row">
+
+                        <div class="col-sm-12 col-lg-6">
+                            <img src="images/domaine/education.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="col-sm-12 col-lg-6 portfolio-content">
+
+                            <h3 style="text-align: center;">Education</h3>
+
+                            <p class="portfolio-project-description">
+
+                                An “Easy”,” Holistic” and “For sure” Video communication digital meeting that made everything easier and simpler. Majorly it consists of Video Consultation, Conference rooms and Case final.
+                                Video communication that feels better than a face-to-face meeting. From individual consultants to customer service centers. Conference rooms that invite users to a conference room with one click or send a link for external users. Case Final which includes the initial consultation to the legally compliant conclusion of a contract. Simply complete processes without media disruption.
+
+                            </p>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row portfolio-row">
+
+                        <div class="col-sm-12 col-lg-6">
+                            <img src="images/domaine/auto.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="col-sm-12 col-lg-6 portfolio-content">
+                            <h3 style="text-align: center;">Automotive</h3>
+
+                            <p class="portfolio-project-description">
+
+                                An “Easy”,” Holistic” and “For sure” Video communication digital meeting that made everything easier and simpler. Majorly it consists of Video Consultation, Conference rooms and Case final.
+                                Video communication that feels better than a face-to-face meeting. From individual consultants to customer service centers. Conference rooms that invite users to a conference room with one click or send a link for external users. Case Final which includes the initial consultation to the legally compliant conclusion of a contract. Simply complete processes without media disruption.
+
+                            </p>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row portfolio-row">
+
+                        <div class="col-sm-12 col-lg-6">
+                            <img src="images/domaine/health.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="col-sm-12 col-lg-6 portfolio-content">
+                            <h3 style="text-align: center;">Healthcare</h3>
+
+                            <p class="portfolio-project-description">
+
+                                An “Easy”,” Holistic” and “For sure” Video communication digital meeting that made everything easier and simpler. Majorly it consists of Video Consultation, Conference rooms and Case final.
+                                Video communication that feels better than a face-to-face meeting. From individual consultants to customer service centers. Conference rooms that invite users to a conference room with one click or send a link for external users. Case Final which includes the initial consultation to the legally compliant conclusion of a contract. Simply complete processes without media disruption.
+
+                            </p>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row portfolio-row">
+
+                        <div class="col-sm-12 col-lg-6">
+                            <img src="images/domaine/logistic.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="col-sm-12 col-lg-6 portfolio-content">
+
+                            <h3 style="text-align: center;">Logistic</h3>
+
+                            <p class="portfolio-project-description">
+
+                                An “Easy”,” Holistic” and “For sure” Video communication digital meeting that made everything easier and simpler. Majorly it consists of Video Consultation, Conference rooms and Case final.
+                                Video communication that feels better than a face-to-face meeting. From individual consultants to customer service centers. Conference rooms that invite users to a conference room with one click or send a link for external users. Case Final which includes the initial consultation to the legally compliant conclusion of a contract. Simply complete processes without media disruption.
+
+                            </p>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section id="contact-us">
+
+    <div class="container-fluid">
+        <div class="services-heading text-left">
+            <h1 class="section-heading"><span class="bold"> connect</span> with us</h1>
+            <p class="brief-content br-left">
+                With a professional team, technical-edge and industry-expertise, we are ready to assist you.
+                Reach out to experts to discuss your dream software.
+
+
+            </p>
+            <div class="solid mr-auto">
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-us-row">
+        <div class="row row-pad">
+
+            <div class="col-lg-6 p-0 ">
+
+                <img src="images/loog1.png" alt="">
+                <p class="contact-info">DevelopersHive is a renowned software development company in India
+                    that offers full-cycle of custom software development, ERP software development, mobile software
+                    and web application development services. You can leave your queries here or reach out to us on
+                    social media. We are on Linkedin,
+                    Facebook, and Twitter. Feel free to talk</p>
+               
+
+            </div>
+
+            <div class="col-lg-6 p-0">
+
+                <div class="form-column">
+                    <p class="message-quote">
+                        Leave us a message!
+                    </p>
+                    <p class="message-quote-tagline">
+                        Contact us for Quotation and Enquiries.
+                    </p>
+
+                    <form action="#" id="tp-form" class="comment-form contact-form">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 col-12">
+                                <p class="contact-form-el">
+                                    <input type="text" name="tp-username" id="tp-username" class="tp-feild tp-user-name" required="" placeholder="Full Name *">
+                                </p>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-12">
+                                <p class="contact-form-el">
+                                    <input type="email" name="tp-email" class="tp-feild tp-email" id="tp-email" required="" placeholder="Your Email *">
+                                </p>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-12">
+                                <p class="contact-form-el">
+                                    <input type="text" id="tp-company" name="tp-company" class="tp-feild tp-phone" placeholder="Company Name ">
+                                </p>
+                            </div>
+                            <div class="col-12">
+                                <p class="contact-form-el">
+                                    <textarea name="tp-message" class="tp-message" placeholder="Write Your Message."></textarea>
+                                </p>
+                            </div>
+                            <div class="col-12 ">
+                                <div class="tp-wrap-btn">
+                                    <button type="submit" class=" sendmessage_btn" id="tp-submit">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                   
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+</br>
+<div class="responsive-map-container">
+    <!-- place the iframe code between here... -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.9952457870995!2d-5.815464748637737!3d35.775493132305584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c7f555dd45bf9%3A0xa9a601051f9cf613!2sAtento!5e0!3m2!1sen!2sma!4v1611097194039!5m2!1sen!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>    <!-- ... and here -->
+  </div>
+    <!-- Main Footer -->
+    <footer class="main-footer alternate" style="background-image: url(images/background/5.jpg);">
+        
+        <!--Footer Bottom-->
+        <div class="footer-bottom" style="background-color: #2988DC">
+            <div class="auto-container">
+                <div class="inner-container clearfix">
+                    <div class="social-links">
+                        <ul class="social-icon-two">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+                    </div>
+                    
+                    <div class="copyright-text">
+                       <a href="#" target="_blank">© 2020 CLOUDVISION</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- End Main Footer -->
+
+</div>
+
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-circle-o-up"></span></div>
+<script src="js/jquery.js"></script> 
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/mixitup.js"></script>
+<script src="js/script.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Color Setting -->
+<script src="js/color-settings.js"></script>
+<script>
+    $(function() {
+  var $tabButtonItem = $('#tab-button li'),
+      $tabSelect = $('#tab-select'),
+      $tabContents = $('.tab-contents'),
+      activeClass = 'is-active';
+
+  $tabButtonItem.first().addClass(activeClass);
+  $tabContents.not(':first').hide();
+
+  $tabButtonItem.find('a').on('click', function(e) {
+    var target = $(this).attr('href');
+
+    $tabButtonItem.removeClass(activeClass);
+    $(this).parent().addClass(activeClass);
+    $tabSelect.val(target);
+    $tabContents.hide();
+    $(target).show();
+    e.preventDefault();
+  });
+
+  $tabSelect.on('change', function() {
+    var target = $(this).val(),
+        targetSelectNum = $(this).prop('selectedIndex');
+
+    $tabButtonItem.removeClass(activeClass);
+    $tabButtonItem.eq(targetSelectNum).addClass(activeClass);
+    $tabContents.hide();
+    $(target).show();
+  });
+});
+</script>
+
+</body>
+
+<!-- services27:08-->
+</html>
